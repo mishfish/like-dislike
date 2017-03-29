@@ -24,6 +24,7 @@
     function LikeDislike(element, options) {
         this.element = element;
         this.opts = $.extend({}, defaults, options);
+        this.opts.initialValue = parseInt(this.element.dataset.initialValue);
         this.init();
     }
 
