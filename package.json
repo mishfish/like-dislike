@@ -12,7 +12,7 @@
     "plugin"
   ],
   "devDependencies": {
-    "gulp": "^3.9.0",
+    "gulp": "^3.9.1",
     "gulp-minify": "0.0.5"
   }
 }
